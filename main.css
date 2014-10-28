@@ -1,0 +1,207 @@
+/*font*/
+@font-face
+{
+font-family: RetroFont;
+src:url('SF_Atarian_System.ttf');
+}
+/*General css*/
+body{
+	background-image: url("oldschooltvfinal.png");
+	background-size:855px 903px;
+	background-color: #000;
+	background-repeat:no-repeat;
+	color:#fff;
+}
+
+h1{
+	margin: 460px 0 0 200px;
+	padding-top:50px;
+	padding-left:20px;
+	font-family: RetroFont;
+	font-size: 100px;
+}
+#title{
+	margin-left:100px;
+	margin-top:420px;
+	font-size:75px;
+}
+
+h2{
+	margin: 25px 0 50px 225px;
+	padding-top:25px;
+	font-family: RetroFont;
+	font-size: 50px;
+}
+ul{
+	list-style:none;
+	margin-left:250px;
+	font-family:RetroFont;
+	padding:10px;
+	font-size:50px;
+}
+#nav li{
+	height:25px;
+	margin-right:0px;
+	margin-bottom:30px;
+}
+#nav li:hover{
+	list-style-image:url("finaltriangle.png");
+}
+canvas{
+	margin:380px 250px 900px 75px;
+}
+a{
+	color:#fff;
+	text-decoration:none;
+	padding:10px;
+	margin-bottom:40px;
+	margin-top:40px;
+}
+a:hover{
+	color:#fff;
+	text-shadow: 0px 2px #0ff;
+}
+#nav a:hover{
+	list-style-image:url("triangle.png");
+}
+#btn, #menu{
+	alignment-adjust:central;
+	color:#fff;
+	background-color:#000;
+	font-family:RetroFont;
+	font-size:40px;
+	border:none;
+	position:absolute;
+	top:630px;
+	left:250px;
+	padding:10px;
+}
+#btn:hover{
+	color:#fff;
+	text-shadow: 0px 4px #0ff;
+}
+#menu{
+position:absolute;
+top:700px;
+}
+#menu:hover{
+	color:#fff;
+	text-shadow: 0px 4px #0ff;
+}
+
+/*Breakout css*/
+#breakoutCanvas{
+	margin:420px 200px 900px 85px;
+}
+#breakoutScore{
+	font-family: RetroFont;
+	color:#fff;
+	position:absolute;
+	padding-top:20px;
+	font-size:25px;
+	position:absolute;
+	left:150px;
+	top:380px;
+}
+#showLives{
+	padding-top:20px;
+	font-family: RetroFont;
+	font-size:25px;
+	position:absolute;
+	left:450px;
+	top:380px;
+}
+#showLevels{
+	padding-top:20px;
+	font-family: RetroFont;
+	font-size:25px;
+	position:absolute;
+	left:300px;
+	top:380px;
+}
+#breakOver{
+	font-family: RetroFont;
+	font-size:150px;
+	padding-top:120px;
+	padding-bottom:120px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color:#000;
+	background-size:525px 400px;
+	position: absolute;
+	top:415px;
+	left:90px;
+	
+}
+/*Color Match css */
+#CMScore{
+	font-family: RetroFont;
+	color:#fff;
+	position:absolute;
+	margin-top:50px;
+	padding-top:50px;
+	font-size:40px;
+	left:325px;
+	top:380px;
+	background-color:#000;
+}
+#colorText{
+	margin: 500px 500px 300px 120px;
+	padding:35px;
+	font-family:RetroFont;
+	font-size:200px;
+	color:#000;
+}
+#CMTitle{
+	margin-left:100px;
+}
+#rules{
+	position:absolute;
+	top:380px;
+	left:700px;
+}
+#rules li{
+	margin-left:5px;
+	padding:10px;
+}
+/*Pong CSS*/
+
+
+#scoreOne{
+	padding-top:20px;
+	font-family: RetroFont;
+	font-size:25px;
+	position:absolute;
+	left:150px;
+	top:380px;
+	display:inline;
+
+}
+
+#scoreTwo{
+	padding-top:20px;
+	font-family: RetroFont;
+	font-size:25px;
+	position:absolute;
+	left:500px;
+	top:380px;
+	display:inline;
+}
+#pongOver{
+	font-family:RetroFont;
+	font-size:50px;
+	padding-top:150px;
+	padding-bottom:150px;
+	background-color:#000;
+	background-size:525px 400px;
+	position: absolute;
+	top:375px;
+	left:200px;
+}
+#theCanvas{
+	background-image:url("centerline.png");
+	background-position: center;
+	background-size:25px 400px;
+	background-repeat:no-repeat;
+}
+

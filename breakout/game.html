@@ -1,0 +1,16 @@
+<html>
+<head>
+	<link rel="stylesheet" href="../main.css">
+</head>
+<body onLoad="onLoad();">
+	<div id="breakoutScore"></div>
+	<div id="showLives"></div>
+	<div id="showLevels"></div>
+	<canvas id="breakoutCanvas" width="500" height="345" style="solid #000;"></canvas>
+	<div id="breakOver"></div>
+	<input name="Return" type="button" value="Start Over" onClick="OnPress('A');" id="btn">
+	<input name="Menu" type="button" value="Main Menu" onClick="javascript:history.go(-2)" id="menu">
+	<script src="breakout.js" type="text/javascript"></script>
+	
+</body>
+</html>

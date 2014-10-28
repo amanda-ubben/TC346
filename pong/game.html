@@ -1,0 +1,14 @@
+<html>
+<head>
+	 <link rel="stylesheet" href="../main.css">
+</head>
+<body onLoad="onLoad();">
+	<div id="scoreOne"></div>
+	<div id="scoreTwo"></div>
+	<div id="pongOver"></div>
+	<input name="Return" type="button" value="Start Over" onClick="OnPress('A');" id="btn">
+	<input name="Menu" type="button" value="Main Menu" onClick="javascript:history.go(-2)" id="menu">
+	<canvas id="theCanvas" width="525" height="390" style="solid #000;"></canvas>
+	<script src="pong.js" type="text/javascript"></script>
+</body>
+</html>
